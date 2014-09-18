@@ -10,7 +10,6 @@ WORKDIR /opt
 RUN curl -O https://download.elasticsearch.org/logstash/logstash/logstash-1.4.2.tar.gz
 RUN tar -zxvf logstash-1.4.2.tar.gz
 
-RUN mkdir /etc/service/logstash
 ADD logstash.sh /etc/service/logstash/run
 RUN chmod 775 /etc/service/logstash/run
 
