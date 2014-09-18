@@ -1,4 +1,4 @@
-FROM jjbohn/java
+FROM jjbohn/java:0.0.1
 MAINTAINER John Bohn <jjbohn@gmail.com>
 
 ENV HOME /root
